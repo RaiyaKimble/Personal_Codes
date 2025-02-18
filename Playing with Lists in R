@@ -1,0 +1,12 @@
+course_info = ['MATH 5100', 'Fall', '2024', 35]     # Create a list
+
+print(course_info)        # Print the whole list
+print(course_info[2:4])   # Print the slice from indices 2 to 4 (exclusive of 4)
+print(course_info[2:])    # Print the slice from indices 2 to end
+print(course_info[:4])    # Print the slice from beginning to index 4 (exclusive of 4)
+print(course_info[:])     # Print the slice from  beginning to end (same as whole)
+print(course_info[2:-1])   # Print the slice from indices 2 to -1 (exclusive of -1)
+course_info.append('2:30-3:50')         # Add an element to the end of a list
+print(course_info[-1])       # Print an element of the list counting from the right (end)
+course_info.pop(1) # Remove and return the last element of the list
+course_info.extend(['extra']) #lets you add an element to the list as well
