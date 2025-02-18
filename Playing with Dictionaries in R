@@ -1,0 +1,4 @@
+course_info = {'ID':'MATH 5100', 'semester':'Fall', 'title':'Data Analytics in Python', 'n_students': 25} # notice the curly brackets
+print(course_info['n_students'])  # will give the variable it is correlated with 
+course_info['time'] = '10:30-11:50' # add an element to the dictionary
+del(course_info['semester']) # delete the element with the key 'n_students'
