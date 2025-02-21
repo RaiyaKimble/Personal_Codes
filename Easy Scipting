@@ -1,0 +1,7 @@
+nano greetings.sh # creating an interactive script
+#!/bin/bash
+
+echo "What is your name?"
+read name # will let you enter a variable that will then be plugged into the output
+echo "Hello, $name! Welcome to Bash scripting."
+
