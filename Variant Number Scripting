@@ -1,0 +1,10 @@
+#!bin/bash 
+
+echo "What is the VCF file name?"
+read file
+echo $file
+
+grep "^chr" $file | awk {'print $1'}|uniq -c | > raw_file.txt 
+echo "Almost done..."
+grep  -vE 'chrUn|chrM|random|alt|fix' raw_file.txt | awk {'print $1,$2'}
+echo "Done!"
