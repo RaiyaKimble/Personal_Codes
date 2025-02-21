@@ -1,0 +1,6 @@
+#!/bin/bash
+#this is a comment 
+
+echo "Hello, Miss Kimble"
+echo "Todays date is: $(date)."
+echo "You are logged in as : $(whoami)."
